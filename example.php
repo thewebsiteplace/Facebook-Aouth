@@ -3,7 +3,7 @@
 	$to = new facebook();
 	$to->client_id = '';
 	$to->client_secret = '';
-	$to->redirect_uri = 'http://beta.allwebchat.com/simonsfuckabout/classes/example.php';
+	$to->redirect_uri = '';
 
 	if(empty($_REQUEST['code'])){ 
 	
