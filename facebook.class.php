@@ -6,7 +6,7 @@ class facebook {
 		//var $auoth_token;
 	var $client_secret = '';
 	//Curl uses it Might as well :)
-	var $user_agent='All Web Chat'; 
+	var $user_agent='You App Name'; 
 	
 	function authorizeurl($scope){
 		$url = 'https://graph.facebook.com/oauth/authorize';
