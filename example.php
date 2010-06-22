@@ -1,8 +1,8 @@
 <?php 
 	include 'facebook.class.php';
 	$to = new facebook();
-	$to->client_id = '158591243904';
-	$to->client_secret = '1ee6d393d047061ba0cea90e404f2817';
+	$to->client_id = '';
+	$to->client_secret = '';
 	$to->redirect_uri = 'http://beta.allwebchat.com/simonsfuckabout/classes/example.php';
 
 	if(empty($_REQUEST['code'])){ 
